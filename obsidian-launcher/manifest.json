@@ -1,0 +1,9 @@
+{
+	"id": "t2o-launcher",
+	"name": "TikTok → Obsidian bot",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Runs the TikTok → Obsidian Telegram bot while Obsidian is open. Process supervisor only.",
+	"author": "Sunset",
+	"isDesktopOnly": true
+}

@@ -1,0 +1,6 @@
+aiogram>=3.7,<4
+yt-dlp[curl-cffi]>=2026.08.19
+python-dotenv>=1.0
+aiohttp-socks>=0.9  # для socks5-прокси к api.telegram.org
+pytesseract>=0.3.13
+Pillow>=10.0

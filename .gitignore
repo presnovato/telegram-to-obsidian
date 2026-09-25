@@ -1,0 +1,30 @@
+# Секреты и локальное состояние
+.env
+logs/
+state.json
+bot.lock
+
+# Obsidian-плагин: зависимости, сборка, личный путь деплоя
+obsidian-launcher/node_modules/
+obsidian-launcher/main.js
+obsidian-launcher/deploy.local.json
+
+# Внутренние документы обсуждения
+docs/
+
+# Claude / агент
+.claude/
+**/.claude/
+.graphify_*
+graphify-out/
+.tmp-pytest-ocr*/
+.tmp-pytest-tesseract-local/
+tesseract/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/

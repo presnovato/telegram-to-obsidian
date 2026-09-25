@@ -1,0 +1,17 @@
+{
+	"name": "t2o-launcher",
+	"version": "1.0.0",
+	"description": "Starts/stops the TikTok → Obsidian bot process while Obsidian is open. Supervisor only.",
+	"scripts": {
+		"build": "node esbuild.config.mjs",
+		"typecheck": "tsc --noEmit",
+		"test": "node --test supervision.test.ts settings.test.ts",
+		"deploy": "node deploy.mjs"
+	},
+	"devDependencies": {
+		"@types/node": "^22.0.0",
+		"esbuild": "^0.24.0",
+		"obsidian": "^1.7.0",
+		"typescript": "^5.6.0"
+	}
+}
